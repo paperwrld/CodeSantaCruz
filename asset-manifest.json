@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.124eeaa3.css",
-    "main.js": "/static/js/main.18feb899.js",
+    "main.css": "/static/css/main.ac0170a5.css",
+    "main.js": "/static/js/main.3ae83811.js",
+    "static/media/redwoods.png": "/static/media/redwoods.35cac7c6ce837b6d0388.png",
     "static/media/AlteHaasGroteskBold.ttf": "/static/media/AlteHaasGroteskBold.51e503d8635aaf81c93d.ttf",
     "index.html": "/index.html",
-    "main.124eeaa3.css.map": "/static/css/main.124eeaa3.css.map",
-    "main.18feb899.js.map": "/static/js/main.18feb899.js.map"
+    "main.ac0170a5.css.map": "/static/css/main.ac0170a5.css.map",
+    "main.3ae83811.js.map": "/static/js/main.3ae83811.js.map"
   },
   "entrypoints": [
-    "static/css/main.124eeaa3.css",
-    "static/js/main.18feb899.js"
+    "static/css/main.ac0170a5.css",
+    "static/js/main.3ae83811.js"
   ]
 }
