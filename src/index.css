@@ -48,7 +48,7 @@
   }
 
   .card {
-    @apply flex flex-col gap-4 p-6 
+    @apply flex flex-col gap-4 p-6 m-4 md:m-6 lg:m-6
     shadow-lg rounded-lg 
     bg-gradient-to-br from-gray-800 to-gray-900
     border-green-300 border-4 relative 
