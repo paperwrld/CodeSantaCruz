@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/CodeSantaCruz/static/css/main.cc3ba2ad.css",
-    "main.js": "/CodeSantaCruz/static/js/main.8a5fea67.js",
-    "static/media/AlteHaasGroteskBold.ttf": "/CodeSantaCruz/static/media/AlteHaasGroteskBold.51e503d8635aaf81c93d.ttf",
-    "index.html": "/CodeSantaCruz/index.html",
-    "main.cc3ba2ad.css.map": "/CodeSantaCruz/static/css/main.cc3ba2ad.css.map",
-    "main.8a5fea67.js.map": "/CodeSantaCruz/static/js/main.8a5fea67.js.map"
+    "main.css": "/static/css/main.ea777cb0.css",
+    "main.js": "/static/js/main.8a5fea67.js",
+    "static/media/AlteHaasGroteskBold.ttf": "/static/media/AlteHaasGroteskBold.51e503d8635aaf81c93d.ttf",
+    "index.html": "/index.html",
+    "main.ea777cb0.css.map": "/static/css/main.ea777cb0.css.map",
+    "main.8a5fea67.js.map": "/static/js/main.8a5fea67.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc3ba2ad.css",
+    "static/css/main.ea777cb0.css",
     "static/js/main.8a5fea67.js"
   ]
 }
