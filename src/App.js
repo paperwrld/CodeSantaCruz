@@ -15,7 +15,7 @@ function App() {
 
   return (
     <main>
-      <section className=" h-screen px-6 md:px-20 items-center flex flex-col  justify-center gap-4" >
+      <section className="bg-redwood h-screen px-6 md:px-20 items-center flex flex-col  justify-center gap-4" >
         <div className="card">
           <div id="text" className="flex justify-center gap-3 md:gap-4 h-fit">
             <h1 className="text-2xl md:text-4xl lg:text-6xl fancy text-green-300 flex justify-center text-center ">
@@ -30,7 +30,7 @@ function App() {
           </div>
         </div>
         <br/>
-        <div className="text-center opacity-30">
+        <div className="text-center">
           <h1 className="text-base md:text-lg lg:text-xl">SCROLL DOWN TO ACCESS CONTENT</h1>
           <span className="text-xl flex justify-center w-full text-center">
             <BsChevronDoubleDown/>

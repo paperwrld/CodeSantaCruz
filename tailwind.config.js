@@ -33,6 +33,7 @@ module.exports = {
         'layer-01' : "url('/public/layer1.svg')",
         'layer-02' : "url('/public/layer2.svg')",
         'layer-03' : "url('/public/layer3.svg')",
+        'redwood' : "url('/public/redwoods.png')"
       },
       fontFamily: {
         alte: ['Alte']
