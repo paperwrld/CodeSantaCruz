@@ -138,8 +138,8 @@ function App() {
         <div className="card">
           <h1 className="text-center text-xl md:text-2xl lg:text-4xl text-green-300">CONTACT US VIA EMAIL OR JOIN OUR DISCORD!</h1>
           <div className="flex flex-col">
-            <a href="mailto:ethan@codesantacruz.com" target=_blank title="Send us an email!" className="text-xl">ethan@codesantacruz.com</a>
-            <a href="https://discord.gg/MM9CeTqWE3" title="This takes you to our Discord server!" target=_blank className="text-xl hover:text-opacity-20">Discord Link</a>
+            <a href="mailto:ethan@codesantacruz.com" target="blank" title="Send us an email!" className="text-xl">ethan@codesantacruz.com</a>
+            <a href="https://discord.gg/MM9CeTqWE3" title="This takes you to our Discord server!" target="blank" className="text-xl hover:text-opacity-20">Discord Link</a>
           </div>
         </div>
       </section>
