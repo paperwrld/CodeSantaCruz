@@ -1,6 +1,7 @@
-import { React, useRef } from 'react';
+import { React } from 'react';
 import { BsChevronDoubleDown } from 'react-icons/bs';
-import { Parallax, ParallaxLayer } from '@react-spring/parallax';
+import { FcGoogle } from 'react-icons/fc';
+import { HiOutlineMail } from 'react-icons/hi';
 
 function enhanceText(text) {
   return text.split('').map((letter, index) => (
@@ -11,11 +12,10 @@ function enhanceText(text) {
 }
 
 function App() {
-  const ref = useRef();
 
   return (
     <main>
-      <section className="bg-redwood h-screen px-6 md:px-20 items-center flex flex-col  justify-center gap-4" >
+      <section className="bg-redwood -z-10 h-screen px-6 md:px-20 items-center flex flex-col  justify-center gap-4" >
         <div className="card">
           <div id="text" className="flex justify-center gap-3 md:gap-4 h-fit">
             <h1 className="text-2xl md:text-4xl lg:text-6xl fancy text-green-300 flex justify-center text-center ">
@@ -49,7 +49,7 @@ function App() {
           <div className="w-full md:w-3/4 px-6 flex flex-col justify-center">
             <h1 className="text-green-300">About me:</h1>
             <p className="text-base">
-              I'm Ethan Okamura, a computer science major pursuing a master's degree and an experienced software developer. As the founder of CodeSantaCruz, I aim to be a mentor and teacher, providing affordable resources for students in Santa Cruz County. With a decade of programming expertise and a background in teaching, my goal is to instill a love for programming in my students while they have fun creating their dream projects. I am committed to continuous learning and strive to offer my students comprehensive knowledge and support. Join me at CodeSantaCruz to ignite your passion for programming and embark on an exciting educational journey.
+              I'm Ethan Okamura, a computer science major with an end goal of recieving a master's degree and an experience in software development. As the founder of CodeSantaCruz, I aim to be a mentor and teacher, providing affordable resources for students in Santa Cruz County. With a decade of programming expertise and a background in teaching, my goal is to instill a love for programming in my students while they have fun creating their dream projects. I am committed to continuous learning and strive to offer my students comprehensive knowledge and support. Join me at CodeSantaCruz to ignite your passion for programming and embark on an exciting educational journey.
             </p>
           </div>
         </div>
@@ -136,10 +136,31 @@ function App() {
       </section>
       <section className="pb-36 text-center flex flex-col gap-4">
         <div className="card">
-          <h1 className="text-center text-xl md:text-2xl lg:text-4xl text-green-300">CONTACT US VIA EMAIL OR JOIN OUR DISCORD!</h1>
           <div className="flex flex-col">
-            <a href="mailto:ethan@codesantacruz.com" target="blank" title="Send us an email!" className="text-xl">ethan@codesantacruz.com</a>
-            <a href="https://discord.gg/MM9CeTqWE3" title="This takes you to our Discord server!" target="blank" className="text-xl hover:text-opacity-20">Discord Link</a>
+            <h1 className="text-center text-xl md:text-2xl lg:text-4xl text-green-300">SIGN UP HERE VIA GOOGLE FORM</h1>
+            <h1 className="text-center text-xl md:text-2xl lg:text-4xl text-green-300">OR CONTACT US VIA EMAIL</h1>
+          </div>
+          <div className="flex flex-col items-center">
+            <a 
+              className="card px-4 py-2 m-2 from-gray-700 to-gray-800 w-fit rounded-lg hover:rounded-3xl transition-all cursor-pointer ease-linear duration-300" 
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeByudOhcbytFHKEb-ezouKcEB2lQiHEQ_rMN2qtKZmUW9FSA/viewform?usp=sf_link" 
+              target="blank" 
+              title="Sign Up">
+              <div className="flex gap-2 items-center text-xl">
+                <FcGoogle/>
+                <p>Google Form</p>
+              </div>
+            </a>
+            <a 
+              className="card px-4 py-2 m-2 from-gray-700 to-gray-800 w-fit rounded-lg hover:rounded-3xl transition-all cursor-pointer ease-linear duration-300" 
+              href="mailto:ethan@codesantacruz.com" 
+              target="blank" 
+              title="Send us an email!" >
+              <div className="flex gap-2 items-center text-xl">
+                <HiOutlineMail className="text-green-300"/>
+                <p>ethan@codesantacruz.com</p>
+              </div>
+            </a>
           </div>
         </div>
       </section>

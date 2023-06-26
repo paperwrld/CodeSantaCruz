@@ -97,33 +97,6 @@
   .fancy:hover > .letter:nth-child(5) {
     transform: translate(0%, 20%) rotate(3deg);
   }
-  .fancy:hover > .letter:nth-child(6) {
-    transform: translate(0%, -40%) rotate(-3deg);
-  }
-  .fancy:hover > .letter:nth-child(7) {
-    transform: translate(0%, 40%) rotate(-5deg);
-  }
-  .fancy:hover > .letter:nth-child(8) {
-    transform: translate(0%, 15%) rotate(10deg);
-  }
-  .fancy:hover > .letter:nth-child(9) {
-    transform: translate(-80%, 60%) rotate(8deg)
-  }
-  .fancy:hover > .letter:nth-child(10) {
-    transform: translate(-80%, 60%) rotate(8deg);
-  }
-  .fancy:hover > .letter:nth-child(11) {
-    transform: translate(-40%, 20%) rotate(4deg);
-  }
-  .fancy:hover > .letter:nth-child(12) {
-    transform: translate(-10%, 60%) rotate(-6deg);
-  }
-  .fancy:hover > .letter:nth-child(13) {
-    transform: translate(0%, -20%) rotate(-8deg);
-  }
-  .fancy:hover > .letter:nth-child(14) {
-    transform: translate(0%, 20%) rotate(3deg);
-  }
   .fancy > .letter {
     display: inline-block;
     transition: transform 600ms ease;
