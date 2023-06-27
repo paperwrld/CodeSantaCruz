@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.21ff21ef.css",
-    "main.js": "/static/js/main.655f4052.js",
+    "main.js": "/static/js/main.64ca6760.js",
     "static/media/redwoods.png": "/static/media/redwoods.35cac7c6ce837b6d0388.png",
     "static/media/AlteHaasGroteskBold.ttf": "/static/media/AlteHaasGroteskBold.51e503d8635aaf81c93d.ttf",
     "index.html": "/index.html",
     "main.21ff21ef.css.map": "/static/css/main.21ff21ef.css.map",
-    "main.655f4052.js.map": "/static/js/main.655f4052.js.map"
+    "main.64ca6760.js.map": "/static/js/main.64ca6760.js.map"
   },
   "entrypoints": [
     "static/css/main.21ff21ef.css",
-    "static/js/main.655f4052.js"
+    "static/js/main.64ca6760.js"
   ]
 }
