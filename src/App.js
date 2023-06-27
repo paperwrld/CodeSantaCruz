@@ -153,7 +153,7 @@ function App() {
             </a>
             <a 
               className="card px-4 py-2 m-2 from-gray-700 to-gray-800 w-fit rounded-lg hover:rounded-3xl transition-all cursor-pointer ease-linear duration-300" 
-              href="mailto:ethan@codesantacruz.com" 
+              href="mailto:ethanokamura3@gmail.com" 
               target="blank" 
               title="Send us an email!" >
               <div className="flex gap-2 items-center text-xl">
