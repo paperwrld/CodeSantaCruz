@@ -158,7 +158,7 @@ function App() {
               title="Send us an email!" >
               <div className="flex gap-2 items-center text-xl">
                 <HiOutlineMail className="text-green-300"/>
-                <p>ethan@codesantacruz.com</p>
+                <p>ethanokamura3@gmail.com</p>
               </div>
             </a>
           </div>
